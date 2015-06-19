@@ -133,7 +133,7 @@ if (isset($_POST) && array_key_exists('obfuscated', $_POST))
     <meta name="author" content="Adam Schubert">
     <meta name="keywords" content="deobfuscator, Javascript, javascriptobfuscator">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>Javascript DE-Obfuscator</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
