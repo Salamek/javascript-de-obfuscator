@@ -22,7 +22,7 @@ class deo
   
   private function findListName()
   {
-    $reg = '/var\s(.+)(?:\s|.)?=(?:\s|.)?\[/i';
+    $reg = '/var\s+(\S+)(?:\s+|)=(?:\s+|)\[/i';
     $matches = array();
     preg_match($reg, $this->content, $matches);
     if (count($matches) != 2)
